@@ -17,7 +17,7 @@ if __name__ == '__main__':
     urls = list(rest_of_urls)
 #    print(urls)
 
-# map方法，第一个参数方法不加括号，否则报错；第二个参数未urls需提前转换
+# map方法，第一个参数方法不加括号，否则报错；第二个参数需为list
 
     if urls:
         pool.map(get_details, urls)
