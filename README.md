@@ -16,3 +16,4 @@
 
 6.编写本地数据库监控程序，实时监控爬取到的数据量。--counts
 
+![](./src/xiaozhu_crawler.PNG)
